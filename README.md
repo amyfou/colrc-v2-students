@@ -56,7 +56,7 @@ First, follow the steps to [generate a new SSH Key](https://docs.github.com/en/a
 
 1. Create and/or switch to the directory where you want our application to live. Then, from the command line in that directory, clone this repository:
 
-    `git clone git@github.com:arizona-linguistics/colrc-v2.git`
+    `git clone git@github.com:amyfou/colrc-v2-students.git`
 
 2. Afterward, change to the newly-created directory.
 
