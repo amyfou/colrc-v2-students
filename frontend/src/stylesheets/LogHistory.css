@@ -1,0 +1,134 @@
+.log-history-container {
+    padding: 24px 0;
+}
+
+.log-history-title {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    color: #2c3e50;
+    letter-spacing: -0.02em;
+}
+
+.log-accordion {
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.log-accordion-button {
+    padding: 16px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    background-color: #fafafa;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+
+.log-action-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.log-action-badge-i {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.log-action-badge-u {
+    background-color: #e3f2fd;
+    color: #1565c0;
+}
+
+.log-action-badge-d {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+.log-panel-content {
+    padding: 24px;
+    background-color: #ffffff;
+}
+
+.log-section {
+    margin-bottom: 28px;
+}
+
+.log-section:last-child {
+    margin-bottom: 0;
+}
+
+.log-section-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: #2c3e50;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.log-section-subtitle {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 8px 0;
+    color: #555;
+}
+
+.log-section-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+    margin: 8px 0;
+    word-wrap: break-word;
+}
+
+.log-info-item {
+    margin: 6px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.log-action-label {
+    margin-right: 8px;
+    font-weight: 500;
+}
+
+.log-null-value {
+    color: #999;
+    font-style: italic;
+}
+
+.log-table-key {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.log-table-value {
+    color: #555;
+}
+
+.log-table-value pre {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.log-json-value {
+    background-color: #f8f8f8;
+    padding: 8px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: 'Courier New', monospace;
+    color: #333;
+    overflow-x: auto;
+    margin: 0;
+    border: 1px solid #e8e8e8;
+}
+
