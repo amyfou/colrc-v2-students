@@ -118,7 +118,9 @@ function getRows(data) {
 */
 function formatKey(key) {
     if (!key) return "";
-    return key.replace(/_/g, ' ');
+    key = key.replace(/_/g, ' '); //replace "_" with space " "
+    key = key.replace(/([a-z])([A-Z])/g, "$1 $2"); //Convert to not camel case
+    return key;
 }
 
 /*
