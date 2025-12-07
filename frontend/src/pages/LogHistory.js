@@ -109,21 +109,37 @@ function getRows(data) {
     return rows;
 }
 
+/*
+  Name: formatKey(key)
+  Description: Takes in a key in order to format it more uniformly and error check
+    Able to add more if necessary to format
+
+  AI Disclosure: Had trouble with real expressions so AI was used for reference
+*/
 function formatKey(key) {
     if (!key) return "";
     return key.replace(/_/g, ' ');
 }
 
+/*
+  Name: formatValue(value)
+    Description: Takes in a value in order to format it more unifromly and error check
+*/
 function formatValue(value) {
     if (value === null || value === undefined) {
         return <span className="log-null-value">—</span>;
     }
+  
     if (typeof value === 'object') {
         return JSON.stringify(value);
     }
     return String(value);
 }
 
+/*
+  Name: resolveAction(action)
+    Description: replaces the letter action for the full name to make it more readable
+*/
 function resolveAction(action) {
     switch (action) {
         case 'I':
